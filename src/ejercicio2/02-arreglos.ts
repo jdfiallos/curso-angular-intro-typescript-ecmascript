@@ -39,7 +39,7 @@ const jdfiallos: Personaje1 = {
 
 const probe = {nombre:"Jose", edad: 10, habilidades: ["Correr", "Sabiduria"], prueba: 'Hola'}
 
-function prueba21(hola: Personaje1){
+function prueba21(hola: Personaje1): void{
     console.table(hola)
 }
 
