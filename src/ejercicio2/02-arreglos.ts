@@ -1,3 +1,8 @@
+/*
+    ===== Código de TypeScript =====
+*/
+
+
 let arreglo: string[] = ["Arreglo", "de","strings"]
 
 let arreglo2: (string | number)[] = ["El comandandte", "CR", 7]
@@ -32,8 +37,16 @@ const jdfiallos: Personaje1 = {
     habilidades: ["Volar","Super fuerza"],
 };
 
+const probe = {nombre:"Jose", edad: 10, habilidades: ["Correr", "Sabiduria"], prueba: 'Hola'}
+
+function prueba21(hola: Personaje1){
+    console.table(hola)
+}
+
+prueba21(probe);
+
 jdfiallos.puebloNatal1 = 'Paleta';
 
-console.log(jdfiallos.nombre);
+/* console.log(jdfiallos.nombre);
 
-console.table( jdfiallos )
+console.table( jdfiallos ) */
