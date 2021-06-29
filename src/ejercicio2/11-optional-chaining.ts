@@ -13,6 +13,7 @@ const pasajero20: pasajero1 = {
     hijos: ['Natalia', 'Gabriel'],
 }
 
+
 function imprimirHijos( pasajeros: pasajero1 ): void {
 
     const cuantosHijos = pasajeros.hijos?.length || 0;
