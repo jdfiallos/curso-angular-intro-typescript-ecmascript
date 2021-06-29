@@ -1,5 +1,5 @@
 
-interface Producto {
+export interface Producto {
     desc: string,
     precio: number
 }
@@ -15,7 +15,7 @@ const tableta: Producto = {
 }
 
 
-function calculaISV1( productos: Producto[] ): number[] {
+export function calculaISV1( productos: Producto[] ): number[] {
     let total = 0;
     /* A traves de llaves podemos extaer exactamente el dato del objeto. */
     productos.forEach( ({ precio }) => {
@@ -27,9 +27,9 @@ function calculaISV1( productos: Producto[] ): number[] {
 }
 
 
-const articulos = [ telefono, tableta ];
+/* const articulos = [ telefono, tableta ];
 
 const [ total, isv ] = calculaISV1( articulos );
 
 console.log('ISV: ', total);
-console.log('Total', isv);
+console.log('Total', isv); */
